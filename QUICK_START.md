@@ -42,8 +42,8 @@
   "mcpServers": {
     "problem-solving": {
       "command": "node",
-      "args": ["C:/Users/TerLa/Desktop/keee/dist/index.js"],
-      "cwd": "C:/Users/TerLa/Desktop/keee",
+      "args": ["/path/to/problem-solving-mcp/dist/index.js"],
+      "cwd": "/path/to/problem-solving-mcp",
       "env": {
         "NODE_ENV": "production"
       }
@@ -51,6 +51,8 @@
   }
 }
 ```
+
+> **注意**：请将 `/path/to/problem-solving-mcp` 替换为您的实际项目路径
 
 ### 3. 重启Cursor
 配置生效后重启Cursor
@@ -67,8 +69,8 @@
   "mcpServers": {
     "problem-solving": {
       "command": "node",
-      "args": ["C:/Users/TerLa/Desktop/keee/dist/index.js"],
-      "cwd": "C:/Users/TerLa/Desktop/keee",
+      "args": ["/path/to/problem-solving-mcp/dist/index.js"],
+      "cwd": "/path/to/problem-solving-mcp",
       "env": {
         "NODE_ENV": "production"
       }
@@ -76,6 +78,8 @@
   }
 }
 ```
+
+> **注意**：请将 `/path/to/problem-solving-mcp` 替换为您的实际项目路径
 
 ### 3. 重启Claude Desktop
 

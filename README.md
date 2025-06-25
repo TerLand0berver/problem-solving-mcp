@@ -76,8 +76,11 @@ npm start
   "mcpServers": {
     "problem-solving": {
       "command": "node",
-      "args": ["C:/Users/TerLa/Desktop/keee/dist/index.js"],
-      "cwd": "C:/Users/TerLa/Desktop/keee"
+      "args": ["/path/to/problem-solving-mcp/dist/index.js"],
+      "cwd": "/path/to/problem-solving-mcp",
+      "env": {
+        "NODE_ENV": "production"
+      }
     }
   }
 }
@@ -89,8 +92,11 @@ npm start
   "mcpServers": {
     "problem-solving": {
       "command": "node", 
-      "args": ["C:/Users/TerLa/Desktop/keee/dist/index.js"],
-      "cwd": "C:/Users/TerLa/Desktop/keee"
+      "args": ["/path/to/problem-solving-mcp/dist/index.js"],
+      "cwd": "/path/to/problem-solving-mcp",
+      "env": {
+        "NODE_ENV": "production"
+      }
     }
   }
 }

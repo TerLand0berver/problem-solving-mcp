@@ -42,8 +42,8 @@ npm start
      "mcpServers": {
        "problem-solving": {
          "command": "node",
-         "args": ["C:/Users/TerLa/Desktop/keee/dist/index.js"],
-         "cwd": "C:/Users/TerLa/Desktop/keee",
+         "args": ["/path/to/problem-solving-mcp/dist/index.js"],
+         "cwd": "/path/to/problem-solving-mcp",
          "env": {
            "NODE_ENV": "production"
          }
@@ -51,6 +51,12 @@ npm start
      }
    }
    ```
+   
+   > **重要**：请将 `/path/to/problem-solving-mcp` 替换为您的实际项目路径。
+   > 
+   > **示例路径**：
+   > - Windows: `C:\\Users\\YourName\\Projects\\problem-solving-mcp`
+   > - macOS/Linux: `/Users/YourName/Projects/problem-solving-mcp`
 
 3. **重启 Cursor**
    配置生效后重启 Cursor
@@ -68,8 +74,8 @@ npm start
      "mcpServers": {
        "problem-solving": {
          "command": "node",
-         "args": ["C:/Users/TerLa/Desktop/keee/dist/index.js"],
-         "cwd": "C:/Users/TerLa/Desktop/keee",
+         "args": ["/path/to/problem-solving-mcp/dist/index.js"],
+         "cwd": "/path/to/problem-solving-mcp",
          "env": {
            "NODE_ENV": "production"
          }
@@ -77,6 +83,8 @@ npm start
      }
    }
    ```
+   
+   > **重要**：请将 `/path/to/problem-solving-mcp` 替换为您的实际项目路径。
 
 3. **重启 Claude Desktop**
 
