@@ -10,14 +10,11 @@
 
 | Document | Description | Language |
 |----------|-------------|----------|
-| [README.md](docs/zh/README.md) | Complete project documentation | 中文 |
+| [README.md](../zh/README.md) | Complete project documentation | 中文 |
 | [README.md](README.md) | Complete project documentation | English |
-| [INSTALLATION.md](docs/en/INSTALLATION.md) | Installation and configuration guide | English |
-| [QUICK_START.md](docs/en/QUICK_START.md) | Quick start guide (5 minutes) | English |
-| [example-usage.md](docs/en/examples/example-usage.md) | Detailed usage examples | English |
-| [安装指南](docs/zh/INSTALLATION.md) | 安装和配置指南 | 中文 |
-| [快速开始](docs/zh/QUICK_START.md) | 5分钟快速配置 | 中文 |
-| [使用示例](docs/zh/examples/example-usage.md) | 详细使用示例 | 中文 |
+| [INSTALLATION.md](INSTALLATION.md) | Installation and configuration guide | English |
+| [QUICK_START.md](QUICK_START.md) | Quick start guide (5 minutes) | English |
+| [example-usage.md](examples/example-usage.md) | Detailed usage examples | English |
 
 ## 🌟 Overview
 
@@ -287,23 +284,61 @@ pm2 start dist/index.js --name problem-solving-mcp
 
 ## 🗺️ Roadmap
 
-### Version 1.1
+### Version 1.1 - Infrastructure & UI
 - [ ] Persistent storage support (PostgreSQL, MongoDB)
 - [ ] Web dashboard interface
 - [ ] RESTful API endpoints
 - [ ] Role template marketplace
 
-### Version 1.2
+### Version 1.2 - AI Enhancement
+- [ ] **Prompt Engineering Optimization** - Automatic role construction instead of template dependency
 - [ ] Machine learning-based role recommendations
 - [ ] Advanced parallel processing algorithms
 - [ ] Integration with external project management tools
 - [ ] Multi-language support expansion
 
-### Version 2.0
+### Version 2.0 - Enterprise & Collaboration
 - [ ] Distributed processing architecture
 - [ ] Real-time collaboration features
 - [ ] Advanced analytics and reporting
 - [ ] Enterprise-grade security features
+
+## 🎯 Next Major Focus: Prompt Engineering Optimization
+
+### 🧠 Dynamic Role Construction
+The next major enhancement will focus on **intelligent role creation through prompt engineering** rather than relying on static templates:
+
+#### Current State (Template-based)
+- Fixed role templates with predefined skills and responsibilities
+- Limited adaptability to unique problem contexts
+- Manual role customization required for edge cases
+
+#### Target State (AI-driven)
+- **Dynamic Role Generation**: AI analyzes problem context and automatically constructs optimal roles
+- **Contextual Skill Mapping**: Skills and responsibilities dynamically matched to specific problem requirements
+- **Adaptive Role Evolution**: Roles can evolve and specialize during project execution
+- **Cross-domain Intelligence**: Automatic role synthesis from multiple domain expertise
+
+#### Implementation Strategy
+1. **Prompt Engineering Framework**
+   - Develop sophisticated prompts for role analysis and construction
+   - Create role synthesis algorithms based on problem characteristics
+   - Implement dynamic skill assessment and matching
+
+2. **Context-Aware Role Creation**
+   - Analyze problem domain, complexity, and constraints
+   - Generate custom role specifications in real-time
+   - Optimize team composition for specific project needs
+
+3. **Intelligent Role Specialization**
+   - Enable roles to develop specialized capabilities during execution
+   - Implement learning mechanisms for role improvement
+   - Support role subdivision and evolution based on workload
+
+4. **Quality Assurance for AI Roles**
+   - Validate generated roles against problem requirements
+   - Ensure role coherence and non-redundancy
+   - Implement feedback loops for role optimization
 
 ## 📄 License
 
