@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "problem-solving": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": ".",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+} 

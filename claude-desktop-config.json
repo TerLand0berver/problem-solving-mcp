@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "problem-solving": {
+      "command": "npx",
+      "args": ["problem-solving-mcp"],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+} 
